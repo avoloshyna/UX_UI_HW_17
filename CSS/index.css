@@ -1,0 +1,30 @@
+.menu{
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  font-size: 24px;
+}
+.bodytext {
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  font-size: 36px;
+}
+.header1 {
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  font-size: 96px;
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+
+}
+/* active state */
+.hoverMe:hover {
+  background-color: #9D0000
+
+}
