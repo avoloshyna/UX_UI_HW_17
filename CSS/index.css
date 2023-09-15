@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
 }
-
 .nav li {
   display: inline-block;
   font-size: 20px;
@@ -16,7 +15,6 @@
   font-size: 24px;
   font-weight: bold;
 }
-
 .bodytext {
   font-family: 'Inter', sans-serif;
   color: #000000;
@@ -29,27 +27,16 @@
   font-size: 96px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-.hoverMe {
+.button{
   grid-area: hover;
-  background-color: red;
+  background-color: black;
   color: white;
   width: 150px;
-  text-align: center;
+  text-align: right;
   height: 50px;
   transition: 0.3s;
-
 }
 /* active state */
-.hoverMe:hover {
-  background-color: #9D0000
-
+.button:hover{
+  background-color: white
 }
