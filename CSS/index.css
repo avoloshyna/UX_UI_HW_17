@@ -1,18 +1,31 @@
 .menu{
+  
   font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 24px;
+  font-weight: bold;
 }
 .bodytext {
   font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 36px;
+  font-weight: semibold;
 }
 .header1 {
   font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 96px;
+  font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
 .hoverMe {
   grid-area: hover;
   background-color: red;
