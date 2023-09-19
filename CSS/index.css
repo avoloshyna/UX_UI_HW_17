@@ -47,9 +47,10 @@ a:active {
   font-weight: bold;
 }
 .button {
-  border: none;
-  color: white;
-  background-color: #000000;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 16px;
   padding: 18px 70px;
   text-align: center;
   text-decoration: none;
@@ -60,7 +61,10 @@ a:active {
 }
 /* active state */
 .button:hover {
-  background-color: white
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+
 }
 #Hero {
   background-color: white;
