@@ -58,6 +58,8 @@ a:active {
   border: 2px solid #555555;
   border-radius: 16px;
   padding: 18px 70px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -75,6 +77,12 @@ a:active {
 #Hero {
   background-color: white;
   padding: 100px;
+}
+.selected {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #Work {
   background-color: #F8F1F1;
