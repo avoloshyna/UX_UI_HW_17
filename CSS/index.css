@@ -102,6 +102,16 @@ a:active {
   left: 50%;
   transform: translate(-50%, -50%)
 }
+#footer {
+  background-color: black;
+  padding: 100px;
+}
+#Skills {
+  padding: 100px;
+}
+#Contact {
+  padding: 100px;
+}
 #span {
   
 }
