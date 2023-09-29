@@ -86,7 +86,7 @@ a:active {
   width: 50%;
 }
 #selected {
-  
+  padding: 100px;
 }
 #Work {
   background-color: #F8F1F1;
@@ -102,16 +102,27 @@ a:active {
   left: 50%;
   transform: translate(-50%, -50%)
 }
-#footer {
-  background-color: black;
-  padding: 100px;
-}
 #Skills {
   padding: 100px;
 }
 #Contact {
   padding: 100px;
 }
-#span {
-  
+.footer {
+  background-color: black;
+  padding: 100px;
+  text-align: left;
+  margin: 0;
+}
+.footer li {
+  display: inline-block;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer a, footer a:visited {
+  text-decoration: none;
+  color: white;
 }
